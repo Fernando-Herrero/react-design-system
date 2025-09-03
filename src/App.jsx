@@ -1,9 +1,11 @@
-import "./App.css";
+import { Header } from "./components/Header";
 
 export const App = () => {
-	return (
-		<>
-			<h1>Design system</h1>
-		</>
-	);
+    return (
+        <div className="h-dvh min-h-screen grid grid-rows-[auto-1fr-auto] text-lg">
+            <Header />
+            <main></main>
+            <footer></footer>
+        </div>
+    );
 };

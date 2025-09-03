@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+    /* FONTS */
+    --font-sans: "DM sans", sans-serif;
+
+    --text-color-bluePage: #2563eb;
+    --text-color-letter: #6b7280;
+
+    /* ESPACIOS */
+    --spacing-xs: 12px;
+    --spacing-sm: 16px;
+    --spacing-md: 28px;
+    --spacing-lg: 40px;
+    --spacing-xl: 64px;
+    --spacing-2xl: 96px;
+    --spacing-3xl: 150px;
+}
+
+a p {
+    @apply relative after:bg-gray-300 after:block after:h-[2px] after:absolute after:bottom-0 after:left-0 after:w-0 after:transition-all after:duration-500 hover:after:w-full;
+}
