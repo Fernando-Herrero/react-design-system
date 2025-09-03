@@ -20,6 +20,14 @@
     --rounded: 6px;
 }
 
+.nav {
+    @apply;
+}
+
 a p {
     @apply relative after:bg-gray-300 after:block after:h-[2px] after:absolute after:bottom-0 after:left-0 after:w-0 after:transition-all after:duration-500 hover:after:w-full;
+}
+
+p {
+    color: var(--text-color-letter);
 }
