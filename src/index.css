@@ -4,7 +4,8 @@
     /* FONTS */
     --font-sans: "DM sans", sans-serif;
 
-    --text-color-bluePage: #2563eb;
+    --color-blue: #2563eb;
+    --text-color-blue: #2563eb;
     --text-color-letter: #6b7280;
 
     /* ESPACIOS */
@@ -15,6 +16,8 @@
     --spacing-xl: 64px;
     --spacing-2xl: 96px;
     --spacing-3xl: 150px;
+
+    --rounded: 6px;
 }
 
 a p {
