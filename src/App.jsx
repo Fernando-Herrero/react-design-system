@@ -1,5 +1,8 @@
+import { DashboardSection } from "./sections/DashboardSection";
+import { Features } from "./sections/Features";
 import { Header } from "./sections/Header";
 import { Hero } from "./sections/Hero";
+import { TrustedBySection } from "./sections/TrustedBySection";
 
 export const App = () => {
     return (
@@ -7,6 +10,9 @@ export const App = () => {
             <Header />
             <main>
                 <Hero />
+                <DashboardSection />
+                <TrustedBySection />
+                <Features />
             </main>
             <footer></footer>
         </div>
