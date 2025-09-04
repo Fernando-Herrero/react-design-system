@@ -1,5 +1,6 @@
 import { DashboardSection } from "./sections/DashboardSection";
 import { Features } from "./sections/Features";
+import { Footer } from "./sections/Footer";
 import { FreeTrialSectioon } from "./sections/FreeTrialSection";
 import { FrequentlyTasksSection } from "./sections/FrequentlyTasksSection";
 import { GrowSection } from "./sections/GrowSection";
@@ -22,7 +23,7 @@ export const App = () => {
                 <GrowSection />
                 <FrequentlyTasksSection />
             </main>
-            <footer></footer>
+            <Footer />
         </div>
     );
 };

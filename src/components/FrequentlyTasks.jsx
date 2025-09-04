@@ -11,7 +11,7 @@ export const FrequentlyTasks = ({ title, text }) => {
     return (
         <div className="w-full max-w-[550px]">
             <div
-                className={`flex items-center justify-between bg-gray-200 p-4 ${
+                className={`flex items-center justify-between bg-gray-100 p-4 ${
                     showText ? "rounded-br-none rounded-bl-none rounded-tr rounded-tl" : "rounded"
                 }`}
             >
@@ -26,7 +26,7 @@ export const FrequentlyTasks = ({ title, text }) => {
                 </span>
             </div>
             <div
-                className={`overflow-hidden text-left bg-gray-100 transition-all duration-500 tranasform ${
+                className={`overflow-hidden text-left bg-gray-50 transition-all duration-500 tranasform ${
                     showText ? "opacity-100 max-h-60 p-4" : "opacity-0 max-h-0 p-0"
                 }`}
             >
