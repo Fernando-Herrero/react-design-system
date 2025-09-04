@@ -4,17 +4,17 @@ export const Navbar = () => {
     return (
         <nav className="flex flex-col items-start text-letter lg:flex-row lg:gap-md">
             <NavLink className="flex items-center justify-between w-full">
-                <p>Home</p> <span className="-mb-1 md:hidden">﹥</span>
+                <p>Home</p> <span className="-mb-1 lg:hidden">﹥</span>
             </NavLink>
             <NavLink className="flex items-center justify-between w-full">
-                <p>Products</p> <span className="-mb-1 md:hidden">﹥</span>
+                <p>Products</p> <span className="-mb-1 lg:hidden">﹥</span>
             </NavLink>
             <NavLink className="flex items-center justify-between w-full">
                 <p>Features</p>
-                <span className="-mb-1 md:hidden">﹥</span>
+                <span className="-mb-1 lg:hidden">﹥</span>
             </NavLink>
             <NavLink className="flex items-center justify-between w-full">
-                <p>Pricing</p> <span className="-mb-1 md:hidden">﹥</span>
+                <p>Pricing</p> <span className="-mb-1 lg:hidden">﹥</span>
             </NavLink>
         </nav>
     );

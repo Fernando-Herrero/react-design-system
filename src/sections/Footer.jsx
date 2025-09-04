@@ -14,7 +14,7 @@ export const Footer = () => {
                             <h5 className="font-bold text-xl">{title}</h5>
                             <ul>
                                 {items.map((item, index) => (
-                                    <li key={`${item}-${index}`} className="text-letter">
+                                    <li key={`${item}-${index}`} className="text-letter cursor-pointer">
                                         {item}
                                     </li>
                                 ))}

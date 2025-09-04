@@ -32,7 +32,7 @@ export const Header = () => {
                     } lg:hidden`}
                 >
                     <span
-                        className="flex items-center justify-center p-3 w-4 h-4 self-end cursor-pointer transition duration-500 hover:bg-gray-100 rounded-full md:hidden"
+                        className="flex items-center justify-center p-3 w-4 h-4 self-end cursor-pointer transition duration-500 hover:bg-gray-100 rounded-full lg:hidden"
                         onClick={handleMenuClick}
                     >
                         ⅹ
