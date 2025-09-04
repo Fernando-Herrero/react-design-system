@@ -34,7 +34,7 @@ export const Features = () => {
     }, []);
 
     return (
-        <Container className="flex flex-col items-center gap-10 text-center pt-xl mb-xl">
+        <Container className="flex flex-col items-center gap-10 text-center pt-xl mb-xl lg:pt-2xl lg:mb-2xl">
             <div className="flex flex-col gap-5 px-5">
                 <h5 className="text-blue">Features</h5>
                 <h2 className="font-bold text-4xl ">You will never missed a deadline</h2>

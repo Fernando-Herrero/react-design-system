@@ -28,7 +28,7 @@ const brands = {
 
 export const TrustedBySection = () => {
     return (
-        <Container className="flex flex-col gap-md mt-xl mb-xl text-center">
+        <Container className="flex flex-col gap-md pt-xl mb-xl text-center lg:pt-2xl">
             <p>Already loved and trusted by product team</p>
 
             {Array.from({ length: 2 }, (_, index) => (

@@ -3,7 +3,7 @@ import { Container } from "../components/Container";
 
 export const Hero = () => {
     return (
-        <Container className="flex flex-col items-center gap-md mt-xl text-center">
+        <Container className="flex flex-col items-center gap-md mt-xl text-center lg:mb-2xl">
             <div className="flex flex-col gap-xs">
                 <h1 className="text-4xl font-bold sm:text-5xl">
                     Make Your First <span className="text-blue">Impression</span> Count
