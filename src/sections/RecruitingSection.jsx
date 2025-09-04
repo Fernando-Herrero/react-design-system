@@ -53,6 +53,7 @@ export const RecuitringSection = () => {
 
                         <div className={`flex ${swapOrder ? "md:order-1" : ""}`}>
                             <img
+                                className="transition-transform duration-300 hover:scale-105"
                                 src={isImg1 ? imageData[0].src : imageData[1].src}
                                 alt={isImg1 ? imageData[0].alt : imageData[1].alt}
                             />

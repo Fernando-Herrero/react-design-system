@@ -11,17 +11,13 @@ export const FrequentlyTasks = ({ title, text }) => {
     return (
         <div className="w-full max-w-[550px]">
             <div
-                className={`flex items-center justify-between bg-gray-100 p-4 ${
+                onClick={handleShowText}
+                className={`flex items-center justify-between bg-gray-100 p-4 cursor-pointer ${
                     showText ? "rounded-br-none rounded-bl-none rounded-tr rounded-tl" : "rounded"
                 }`}
             >
                 <h5 className="text-black">{title}</h5>
-                <span
-                    onClick={handleShowText}
-                    className={`cursor-pointer transition-transform duration-500 ${
-                        showText ? "rotate-90" : "rotate-0"
-                    }`}
-                >
+                <span className={`transition-transform duration-500 ${showText ? "rotate-90" : "rotate-0"}`}>
                     ＞
                 </span>
             </div>
